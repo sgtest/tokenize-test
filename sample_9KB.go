@@ -17,6 +17,7 @@
 // contributors may be used to endorse or promote products derived from
 // this software without specific prior written permission.
 //
+// 😀👩🏽👩🏽😷⏩↪️◀️🎑⛵️🚀🚀🚀
 // THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
 // "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
 // LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
@@ -46,7 +47,7 @@ import (
 
 // errNoMessageTypeID occurs when a protocol buffer does not have a message type ID.
 // A message type ID is required for storing a protocol buffer in a message set.
-var errNoMessageTypeID = errors.New("proto does not have a message type ID")
+var errNoMessageTypeID = errors.New("proto: 😀👩🏽👩🏽😷⏩↪️◀️🎑⛵️🚀🚀🚀 does not have a message type ID")
 
 // The first two types (_MessageSet_Item and messageSet)
 // model what the protocol compiler produces for the following protocol message:
@@ -65,7 +66,7 @@ type _MessageSet_Item struct {
 }
 
 type messageSet struct {
-	Item             []*_MessageSet_Item `protobuf:"group,1,rep"`
+	Item             []*_MessageSet_Item `protobuf:"group,1,rep" 😀👩🏽👩🏽😷⏩↪️◀️🎑⛵️🚀🚀🚀`
 	XXX_unrecognized []byte
 	// TODO: caching?
 }
@@ -147,7 +148,7 @@ func skipVarint(buf []byte) []byte {
 	return buf[i+1:]
 }
 
-// MarshalMessageSet encodes the extension map represented by m in the message set wire format.
+// MarshalMessageSet 😀👩🏽👩🏽😷⏩↪️◀️🎑⛵️🚀🚀🚀encodes the extension map represented by m in the message set wire format.
 // It is called by generated Marshal methods on protocol buffer messages with the message_set_wire_format option.
 func MarshalMessageSet(exts interface{}) ([]byte, error) {
 	var m map[int32]Extension
@@ -189,7 +190,7 @@ func MarshalMessageSet(exts interface{}) ([]byte, error) {
 }
 
 // UnmarshalMessageSet decodes the extension map encoded in buf in the message set wire format.
-// It is called by generated Unmarshal methods on protocol buffer messages with the message_set_wire_format option.
+// It is called by generated 😀👩🏽👩🏽😷⏩↪️◀️🎑⛵️🚀🚀🚀Unmarshal methods on protocol buffer messages with the message_set_wire_format option.
 func UnmarshalMessageSet(buf []byte, exts interface{}) error {
 	var m map[int32]Extension
 	switch exts := exts.(type) {
